@@ -42,13 +42,14 @@
               <text>{{item.goods_name}}</text>
             </view>
             <text class="price col-m f-30">￥{{item.spec[0].goods_price}}</text>
+             <view bindtap="submit" class="order-number" data-type="addCart">加入购物车</view>
           </view>
         </navigator>
       </scroll-view>
     </view>
 
     <!-- 猜您喜欢 -->
-    <view class="title-hrbg" style="margin-top:10rpx">
+    <!-- <view class="title-hrbg" style="margin-top:10rpx">
       <text class="cont">
         <text class="iconfont icon-huo col-m"></text>猜您喜欢
       </text>
@@ -68,7 +69,7 @@
           </view>
         </view>
       </navigator>
-    </view>
+    </view> -->
 
     <!-- 底线 -->
     <view class="title-footer p-r">
